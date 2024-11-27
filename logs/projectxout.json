@@ -1,0 +1,166 @@
+{
+  "cypress/e2e/projectx/postpaidRegisterCheckout.cy.js": {
+    "Projectx postpaid form -> Open projectx URL": [
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "visit\thttps://qa-jp.edanz.com/postpaid"
+      },
+      {
+        "type": "cy:xhr",
+        "severity": "success",
+        "message": "POST https://www.google-analytics.com/j/collect?v=1&_v=j101&aip=1&a=1840084201&t=pageview&_s=1&dl=https%3A%2F%2Fqa-jp.edanz.com%2Fpostpaid&ul=en-gb&de=UTF-8&dt=%E3%81%8A%E8%A6%8B%E7%A9%8D%E3%82%8A%E3%83%BB%E3%81%94%E4%BE%9D%E9%A0%BC%20%7C%20Edanz&sd=24-bit&sr=1366x768&vp=985x660&je=0&_u=aGBAAEAjAAAAACAEK~&jid=458239995&gjid=1137764970&cid=428539108.1728558305&tid=UA-178099419-1&_gid=19269230.1728558305&_r=1&_slc=1&gtm=45He4a70n81NNHFXNVv832483032za200&cd2=visitor&gcd=13l3l3l3l1l1&dma=0&tag_exp=101671035~101686685&cd3=428539108.1728558305&z=1328926632\nStatus: 200"
+      },
+      {
+        "type": "cy:fetch",
+        "severity": "success",
+        "message": "POST https://www.google-analytics.com/g/collect?v=2&tid=G-X611NRZWPQ&gtm=45je4a70v9125866759za200&_p=1728558297290&gcd=13l3l3l3l2l1&npa=0&dma=0&tag_exp=101671035~101686685&ul=en-gb&sr=1366x768&cid=428539108.1728558305&uaa=x86&uab=64&uafvl=Google%2520Chrome%3B129.0.6668.89%7CNot%253DA%253FBrand%3B8.0.0.0%7CChromium%3B129.0.6668.89&uamb=0&uam=&uap=Linux&uapv=5.15.0&uaw=0&are=1&frm=1&pscdl=noapi&_eu=ABAI&_s=1&dl=https%3A%2F%2Fqa-jp.edanz.com%2Fpostpaid&dt=%E3%81%8A%E8%A6%8B%E7%A9%8D%E3%82%8A%E3%83%BB%E3%81%94%E4%BE%9D%E9%A0%BC%20%7C%20Edanz&sid=1728558305&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_ee=1&ep.ua_dimension_2=visitor&ep.ua_dimension_3=428539108.1728558305&tfd=9787\nStatus: 204"
+      },
+      {
+        "type": "cy:xhr",
+        "severity": "success",
+        "message": "POST https://s.clarity.ms/collect\nStatus: 204"
+      },
+      {
+        "type": "cy:xhr",
+        "severity": "success",
+        "message": "POST https://s.clarity.ms/collect\nStatus: 204"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "get\t.agree-button"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "click\t"
+      },
+      {
+        "type": "cons:log",
+        "severity": "success",
+        "message": "Postpaid ServiceWorker registration successful with scope: ,\nhttps://qa-jp.edanz.com/postpaid"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "get\t#edit-field-family-name-und-0-value"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "type\tEN Lname 879910"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "get\t#edit-field-ws-first-name-und-0-value"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "type\tEN Fname 879910"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "get\t#edit-field-ja-family-name-und-0-value"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "type\tJP Lname 879910"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "get\t#edit-field-ja-first-name-und-0-value"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "type\tJP Fname 879910"
+      },
+      {
+        "type": "cy:xhr",
+        "severity": "success",
+        "message": "POST https://s.clarity.ms/collect\nStatus: 204"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "get\t#edit-mail"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "type\tdeepak.porwal+879910@impelsys.com"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "get\t#edit-pass-pass1"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "type\t121212"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "get\t#edit-pass-pass2"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "type\t121212"
+      },
+      {
+        "type": "cy:xhr",
+        "severity": "success",
+        "message": "POST https://api-js.mixpanel.com/track/?verbose=1&ip=1&_=1728558310255\nStatus: 200"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "get\t#edit-submit--2"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "click\t"
+      },
+      {
+        "type": "cy:xhr",
+        "severity": "success",
+        "message": "POST https://qa-jp.edanz.com/system/ajax"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "wait\t5000"
+      },
+      {
+        "type": "cy:xhr",
+        "severity": "success",
+        "message": "POST https://s.clarity.ms/collect\nStatus: 204"
+      },
+      {
+        "type": "cy:command",
+        "severity": "success",
+        "message": "url\t"
+      },
+      {
+        "type": "cy:command",
+        "severity": "error",
+        "message": "assert\texpected **https://qa-jp.edanz.com/postpaid** to include **/postpaid/order**"
+      },
+      {
+        "type": "cy:xhr",
+        "severity": "success",
+        "message": "POST https://s.clarity.ms/collect\nStatus: 204"
+      }
+    ]
+  }
+}

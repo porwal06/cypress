@@ -1,0 +1,3 @@
+cypress/e2e/projectx/postpaidCheckout.cy.js:
+    Projectx postpaid form -> Open projectx URL
+
